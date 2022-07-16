@@ -41,6 +41,7 @@ header{
 }
 .fa-solid{
     margin-right: 10px;
+    font-size: 15px;
 }
 .navbar-links:hover{
     background-color: white;
