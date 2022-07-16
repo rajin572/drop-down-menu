@@ -37,7 +37,10 @@ header{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 7px 15px;
+}
+.fa-solid{
+    margin-right: 10px;
 }
 .navbar-links:hover{
     background-color: white;
