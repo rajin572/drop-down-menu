@@ -24,7 +24,6 @@ header{
 .logo{
     width: 150px;
     height: 40px;
-    /* background-color: rgb(255, 255, 255); */
 }
 .navbar-nav{
     display: flex;
@@ -52,17 +51,17 @@ header{
     display: none;
     position: absolute;
     background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(165, 165, 165);
-    margin:10px ;
+    margin-top:7px ;
 }
 .drop-down-secound{
+    width: 150px;
     margin-top: -30px;
-    margin-left: 100px;
+    margin-left: 115px;
 }
 .Services-drop-down-secound{
     width: 200px;
     margin-top: -30px;
-    margin-left: -210px;
+    margin-left: -215px;
 }
 .navbar-items:hover .drop-down, .drop-down-items:hover .drop-down-secound, .drop-down-items:hover .Services-drop-down-secound{
     display: block;
@@ -70,9 +69,11 @@ header{
 .drop-down-items, .drop-down-items-secound{
     text-align: center;
     list-style: none;
-    margin: 10px;
-    padding: 10px 15px;
-    border: 1px dotted rgb(0, 0, 0);
+    padding: 15px 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.drop-down-items:last-child, .drop-down-items:last-child:hover , .drop-down-items-secound:last-child, .drop-down-items-secound:last-child:hover{
+    border-bottom: none;
 }
 .drop-down-links, .drop-down-links-secound{
     display: inline-block;
@@ -80,5 +81,9 @@ header{
     color: rgb(255, 255, 255);
 }
 .drop-down-items:hover, .drop-down-items-secound:hover{
-    border: 1px dashed rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.drop-down-items:hover .drop-down-links, .drop-down-items-secound:hover .drop-down-links-secound{
+    color: rgb(0, 0, 0);
 }
